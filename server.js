@@ -16,3 +16,4 @@ app.use('/api/v1', UserRoutes);
 app.use('/api/v1', InterestRoutes);
 
 app.listen(5000, console.log('Server started'.cyan.bold));
+
