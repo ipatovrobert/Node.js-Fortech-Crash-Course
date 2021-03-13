@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const connectDB = async () => {
-    const conn = await mongoose.connect('mongodb+srv://admin:admin123@cluster0.evsfa.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
+    const conn = await mongoose.connect('dbURI', {
         useUnifiedTopology: true,
         useNewUrlParser: true,
         useCreateIndex: true
